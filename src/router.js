@@ -1,4 +1,5 @@
 import VueRouter from 'vue-router';
+import CKEditor from './CKEditor.vue'
 
 const Home = { template: '<div>home</div>' }
 const Foo = { template: '<div>foo</div>' }
@@ -11,6 +12,7 @@ const router = new VueRouter({
     { path: '/', component: Home },
     { path: '/foo', component: Foo },
     { path: '/bar', component: Bar },
+    { path: '/ckeditor', component: CKEditor },
   ]
 })
 
