@@ -17,8 +17,8 @@
   		{{ editorDisabled ? 'Enable' : 'Disable' }} editor
   	</button>
 
-  	<h2>Live editor data</h2>
-  	<code>{{ editorData }}</code>
+  	<h2>Live data</h2>
+  	<div v-html="editorData"></div>
   </div>
 </template>
 <script>
